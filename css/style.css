@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+
+
+nav {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+#logo  {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    width: 600px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #222;
+}
+
+.nav-wrap {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+cursor: pointer;
+width: 1200px;
+height: 900px;
+border-radius: 8px;
+object-fit: cover;
+padding-bottom: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* ARROWS */
+
+#back-button,
+#next-button {
+background-color: transparent;
+border: 0;
+position: absolute;
+top: 40%;
+transform: translate(-40%);
+}
+
+#back-button {
+    left: 5vw;
+}
+
+#next-button {
+    right: 5vw;
+}
+
+#back-arrow,
+#next-arrow {
+    width: 25px;
+    height: auto;
+    fill: none;
+    stroke: #222;
+    stroke-width: 3px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    letter-spacing: 0.5px;
+    background-color: #222;
+    color: #eee;
+    padding: 20px;
+}
+
+footer h3 {
+    font-size: 1.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+footer a{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #eee;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.contact {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
