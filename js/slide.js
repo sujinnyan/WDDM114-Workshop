@@ -5,10 +5,10 @@ const next = document.getElementById("next-button");
 const back = document.getElementById("back-button");
 
 const imgArray = [
-    "img/Image-1.jpg",
-    "img/Image-2.jpg",
-    "img/Image-3.jpg",
-    "img/Image-4.jpg",
+    "../img/Image-1.jpg",
+    "../img/Image-2.jpg",
+    "../img/Image-3.jpg",
+    "../img/Image-4.jpg",
 ];
 
 // EVENT LISTENERS
