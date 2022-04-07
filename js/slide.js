@@ -5,10 +5,10 @@ const next = document.getElementById("next-button");
 const back = document.getElementById("back-button");
 
 const imgArray = [
-    "https://github.com/sujinnyan/WDDM114-Workshop/blob/main/img/image-1.jpg",
-    "https://github.com/sujinnyan/WDDM114-Workshop/blob/main/img/image-2.jpg",
-    "https://github.com/sujinnyan/WDDM114-Workshop/blob/main/img/image-3.jpg",
-    "https://github.com/sujinnyan/WDDM114-Workshop/blob/main/img/image-4.jpg",
+    "img/image-1.jpg",
+    "img/image-2.jpg",
+    "img/image-3.jpg",
+    "img/image-4.jpg",
 ];
 
 // EVENT LISTENERS
